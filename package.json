@@ -1,0 +1,42 @@
+{
+  "name": "cli-quiz",
+  "version": "1.4.0",
+  "description": "A Simple Quiz CLI game created using Nodejs.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "node-quiz": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node-quiz",
+    "quiz-game",
+    "cli-quiz",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "chalk-animation": "^2.0.2",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aditya6101/node-cli-quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aditya6101/node-cli-quiz/issues"
+  },
+  "homepage": "https://github.com/Aditya6101/node-cli-quiz#readme"
+}
